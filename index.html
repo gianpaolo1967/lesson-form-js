@@ -3,56 +3,60 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="materialize/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-		<input type="text" id="name">
-		<input type="text" id="lName">
-		<input type="number" id="age">
-		<input name="sex" value="male" id="sex1" type="radio">
-		<input name="sex" value="female" id="sex2" type="radio">
-		<input id="date" type="date">
-		<select name="" id="members">
-			<option value=""></option>
-			<option value="0">0</option>
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-		</select>
+		<div class="container">
+			<input type="text" id="name" placeholder="first name">
+			<input type="text" id="lName" placeholder="last name">
+			<input type="number" id="age" placeholder="age">
+			<label for="sex1">sex</label>
+			<input name="sex" value="male" id="sex1" type="radio">
+			<input name="sex" value="female" id="sex2" type="radio">
+			<input id="date" type="date">
+			<select name="" id="members">
+				<option value=""></option>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
 
-		<select name="" id="state">
-			<option value=""></option>
-			<option value="Вин">Вин</option>
-			<option value="Вол">Вол</option>
-			<option value="Днепр">Днепр</option>
-			<option value="Дон">Дон</option>
-			<option value="Жит">Жит</option>
-			<option value="Зак">Зак</option>
-			<option value="Зап">Зап</option>
-			<option value="Ива">Ива</option>
-			<option value="Киев">Киев</option>
-			<option value="Кир">Кир</option>
-			<option value="Луг">Луг</option>
-			<option value="Льв">Льв</option>
-			<option value="Ник">Ник</option>
-			<option value="Оде">Оде</option>
-			<option value="Пол">Пол</option>
-			<option value="Ров">Ров</option>
-			<option value="Сум">Сум</option>
-			<option value="Терн">Терн</option>
-			<option value="Хар">Хар</option>
-			<option value="Хер">Хер</option>
-			<option value="Хмель">Хмель</option>
-			<option value="Чер">Чер</option>
-			<option value="Черн">Черн</option>
-			<option value="Чернов">Чернов</option>
-			<option value="Крым">Крым</option>
-		</select>
-		<input id="email" type="email">
-		
-		<input type="tel" id="phone">
-		<input type="checkbox" id="agr">
-		<button id="btn">send</button>
+			<select name="" id="state">
+				<option value=""></option>
+				<option value="Вин">Вин</option>
+				<option value="Вол">Вол</option>
+				<option value="Днепр">Днепр</option>
+				<option value="Дон">Дон</option>
+				<option value="Жит">Жит</option>
+				<option value="Зак">Зак</option>
+				<option value="Зап">Зап</option>
+				<option value="Ива">Ива</option>
+				<option value="Киев">Киев</option>
+				<option value="Кир">Кир</option>
+				<option value="Луг">Луг</option>
+				<option value="Льв">Льв</option>
+				<option value="Ник">Ник</option>
+				<option value="Оде">Оде</option>
+				<option value="Пол">Пол</option>
+				<option value="Ров">Ров</option>
+				<option value="Сум">Сум</option>
+				<option value="Терн">Терн</option>
+				<option value="Хар">Хар</option>
+				<option value="Хер">Хер</option>
+				<option value="Хмель">Хмель</option>
+				<option value="Чер">Чер</option>
+				<option value="Черн">Черн</option>
+				<option value="Чернов">Чернов</option>
+				<option value="Крым">Крым</option>
+			</select>
+			<input id="email" type="email" placeholder="email">
+			
+			<input type="tel" id="phone" placeholder="tel">
+			<input type="checkbox" id="agr">
+			<button class="btn" id="btn">send</button>
+		</div>
 	<script src="jquery-3.2.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="main.js"></script>
